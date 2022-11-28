@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: black;
+}
+body {
+  overflow-x: hidden;
+}
+.one {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+}
+
+.head {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(14, 14, 14);
+
+  height: 100px;
+  margin-top: 30px;
+}
+
+.lamborghini-logo {
+  width: 100px;
+  height: 60px;
+}
+.lamborghini {
+  margin: 90px;
+}
+
+.nav a {
+  background-color: rgb(12, 5, 5);
+  color: rgb(156, 154, 154);
+  padding: 20px 0px;
+  margin: 0 15px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav a:hover {
+  color: rgb(80, 80, 80);
+  border-bottom: 2px solid rgb(126, 124, 124);
+}
+
+.nav a::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: rgb(215, 213, 213);
+  transition: width 0.3s;
+}
+
+.nav ::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+h1 {
+  color: rgb(78, 75, 75);
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.car-1 {
+  margin-top: 30px;
+  margin-left: 400px;
+}
